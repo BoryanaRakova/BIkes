@@ -7,6 +7,22 @@ body{
     color:#ff6600;
 }
 
+.h1, .h2, .h3, h1, h2, h3{
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+    color:white;
+}
+
+.navbar-default .navbar-brand{
+    color:#ff6600;
+}
+
+navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+   color:white; 
+}
+
 .navbar{
     margin:0;
 }
@@ -24,12 +40,20 @@ body{
  
  /*------------jumbotron-----------*/
  
- 
+ .jumbotron{
+     margin-bottom: 5px;
+ }
  .jumbotron p{
      color:black;
  }
  .jumbotron .h1, .jumbotron h1{
      font-size:24px;
+ }
+ /*-------------------Map---------------*/
+ 
+ 
+ .map{
+     margin-top:;
  }
  
  /*--------------------footer-------------*/
@@ -52,8 +76,9 @@ body{
  #footer .footer-top .footer-newsletter input[type="submit"]:hover{
      background:#13a456;
  }
- #footer .footer-info{
+ #footer .footer-info {
      text-align: center;
+     
      
  }
  #footer .copyright{
@@ -65,3 +90,4 @@ body{
      font-size:13px;
      color:#ddd;
  }
+ 
