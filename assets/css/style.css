@@ -1,3 +1,5 @@
+/*--------------Navbar---------*/
+
 body{
     background-color: #303130;
     color:#ff6600;
@@ -23,4 +25,7 @@ body{
  
  .jumbotron p{
      color:black;
+ }
+ .jumbotron .h1, .jumbotron h1{
+     font-size:24px;
  }
