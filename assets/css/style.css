@@ -17,3 +17,10 @@ body{
     color: black;
     background-color: #ff6600;
 }
+ 
+ /*------------jumbotron-----------*/
+ 
+ 
+ .jumbotron p{
+     color:black;
+ }
