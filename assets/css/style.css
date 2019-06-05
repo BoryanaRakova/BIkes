@@ -38,6 +38,12 @@ navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
     background-color: #ff6600;
 }
  
+ .navbar-default .navbar-toggle .icon-bar{
+     background-color: #ff6600;
+ }
+ .navbar-default .navbar-toggle{
+     border-color: #ff6600;
+ }
  /*------------jumbotron-----------*/
  
  .jumbotron{
