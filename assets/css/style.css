@@ -8,8 +8,9 @@ body{
 }
 
 .h1, .h2, .h3, h1, h2, h3{
-    margin-bottom: 0px;
-    font-family: !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif ;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
@@ -45,6 +46,11 @@ navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
  .navbar-default .navbar-toggle{
      border-color: #ff6600;
  }
+ /*------------thumbnail-----------*/
+ 
+ .thumbnail{
+     margin-bottom:5px
+ }
  /*------------jumbotron-----------*/
  
  .jumbotron{
@@ -60,41 +66,107 @@ navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
  
  
  .map{
-     margin-top:;
+     margin-top:1px;
  }
  
  /*--------------------footer-------------*/
- 
- #footer .footer-top .footer-newsletter input[type="email"]{
-     border:0;
-     padding:6px 8px;
-     width:65%;
- }
- #footer .footer-top .footer-newsletter input[type="submit"]{
-     background:#f4511e;
-     border:0;
-     width:35%;
-     padding:6px 0;
-     text-align: center;
-     color:#fff;
-     transition:0.3s;
-     cursor:pointer;
- }
- #footer .footer-top .footer-newsletter input[type="submit"]:hover{
-     background:#13a456;
- }
- #footer .footer-info {
-     text-align: center;
-     
-     
- }
- #footer .copyright{
-     text-align: center;
-     padding-top:30px;
- }
- #footer .credits{
-     text-align: center;
-     font-size:13px;
-     color:#ddd;
- }
- 
+.bg-dark-light {
+    background: #323232 !important;
+}
+.bg-theme, .bg-dark, .bg-dark-light, .bg-secondary {
+    color: #ffffff;
+}
+.widgets.footer-widgets .widget-title {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.widgets.footer-widgets .widget-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100px;
+    background: #13bfb1;
+}
+.widgets.footer-widgets .widget-quick-links ul {
+    margin-top: -4px;
+}
+.widgets.footer-widgets .single-widget ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.widgets.footer-widgets .widget-quick-links ul li {
+    display: block;
+}
+.widgets.footer-widgets .widget-quick-links ul li a {
+    display: block;
+    font-size: 13px;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 9px 0;
+}
+
+.widgets.footer-widgets .single-widget ul li {
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+}
+.widgets.footer-widgets .widget-contact ul li {
+    color: #000;
+    font-size: 13px;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.widgets.footer-widgets .widget-contact ul li span {
+    font-size: 14px;
+    color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 3px;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 20px;
+}
+.widgets.footer-widgets .widget-contact ul li.phone, .widgets.footer-widgets .widget-contact ul li.fax {
+    font-size: 15px;
+}
+
+.widgets.footer-widgets .widget-contact ul li + li {
+    margin-top: 20px;
+}
+.widgets.footer-widgets .widget-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100px;
+    background:#ff6600;
+}
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+.widgets.footer-widgets .widget-contact ul li {
+    color: #000;
+    font-size: 13px;
+    color:#ff6600;
+}
+a:focus, a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
