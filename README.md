@@ -26,7 +26,7 @@ The Home page features a bootstrap carousel with pictures. On mobile and tablet 
  * Contact us - And the last part - the footer contains info about the website , how to “contact us” and “follow us” section.
  
   
- #Technologies Used
+#Technologies Used
 ___
 This project uses HTML and CSS programming languages.
 
